@@ -8,6 +8,7 @@ import com.alaric.java.week5.BookException;
  * @Author Alaric
  * @Date 2020/11/2
  **/
-public class BookService {
-    boolean putOnSale(Book book) throws ISBNException, BookException,PriceException;
-}
+//
+//public class BookService {
+//    boolean putOnSale(Book book) throws ISBNException, BookException,PriceException;
+//}

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.alaric.java.frame.LoginFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="935" height="580"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="b2007" binding="centerPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1247233"/>
+          <foreground color="-1247233"/>
+          <preferredSize width="0" height="80"/>
+        </properties>
+        <border type="bevel-lowered" title="" title-position="6">
+          <font/>
+          <title-color color="-1247233"/>
+        </border>
+        <children>
+          <grid id="6c11c" binding="logoPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8631570"/>
+            </properties>
+            <border type="none" title-justification="2">
+              <font size="24" style="3"/>
+              <title-color color="-4473925"/>
+            </border>
+            <children>
+              <component id="acebe" class="javax.swing.JLabel" binding="logoLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <enabled value="false"/>
+                  <focusable value="false"/>
+                  <font size="50" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <requestFocusEnabled value="true"/>
+                  <text value="LIVE-SHOW"/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="1ebda" binding="loginPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1247233"/>
+              <foreground color="-1247233"/>
+            </properties>
+            <border type="bevel-lowered"/>
+            <children>
+              <component id="9fab8" class="javax.swing.JTextField" binding="loginLable">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.0"/>
+                  <background color="-1247233"/>
+                  <font size="28" style="1"/>
+                  <text value="登 录"/>
+                  <toolTipText value=" "/>
+                </properties>
+              </component>
+              <component id="fa2fa" class="javax.swing.JTextField" binding="toptField">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1247233"/>
+                  <font size="20" style="0"/>
+                  <selectionEnd value="23"/>
+                  <selectionStart value="23"/>
+                  <text value="Access to our dashboard"/>
+                </properties>
+              </component>
+              <component id="7cbcb" class="javax.swing.JButton" binding="loginButton">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-8631570"/>
+                  <foreground color="-1247233"/>
+                  <text value="登 录"/>
+                </properties>
+              </component>
+              <component id="aff0f" class="javax.swing.JPasswordField" binding="passwordField">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-3087379"/>
+                </properties>
+              </component>
+              <component id="8f24c" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-3087379"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="a34ab" binding="topPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-1247233"/>
+          <preferredSize width="0" height="220"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="500f7" binding="bottomPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-1247233"/>
+          <preferredSize width="0" height="160"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="1f073" binding="leftPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-1247233"/>
+          <preferredSize width="220" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="7afc8" binding="rightPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-1247233"/>
+          <preferredSize width="220" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
