@@ -103,5 +103,13 @@
         <scope>test</scope>
     </dependency>
 
+    <servlet>
+        <servlet-name>imageUrl</servlet-name>
+        <servlet-class>com.action.ImageAction</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>imageUrl</servlet-name>
+        <url-pattern>/imgurl</url-pattern>
+    </servlet-mapping>
 </project>
